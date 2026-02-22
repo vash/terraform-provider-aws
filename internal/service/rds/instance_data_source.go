@@ -193,6 +193,10 @@ func dataSourceInstance() *schema.Resource {
 				Type:     schema.TypeString,
 				Computed: true,
 			},
+			"replicate_source_db_cluster": {
+				Type:     schema.TypeString,
+				Computed: true,
+			},
 			names.AttrResourceID: {
 				Type:     schema.TypeString,
 				Computed: true,
